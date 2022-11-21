@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1407</width>
+    <height>647</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>209</y>
+      <width>241</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Cam bilgileri</string>
+    </property>
+    <widget class="QComboBox" name="cmb_marka">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>201</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>STARK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ELEMENTS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SAPPHIRE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ALIZE</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>26</y>
+       <width>222</width>
+       <height>52</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Sağ Göz</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="line_r"/>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>Sağ Ax</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLineEdit" name="line_rax"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Sol Göz</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="line_l"/>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>Sol Ax</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLineEdit" name="line_lax"/>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>21</y>
+      <width>241</width>
+      <height>182</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Kişi Öz Bilgileri</string>
+    </property>
+    <widget class="QLineEdit" name="line_telno">
+     <property name="geometry">
+      <rect>
+       <x>81</x>
+       <y>129</y>
+       <width>151</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>11</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="line_ad">
+     <property name="geometry">
+      <rect>
+       <x>81</x>
+       <y>27</y>
+       <width>151</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>20</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>61</y>
+       <width>32</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Soyad</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>129</y>
+       <width>30</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TelNo</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="line_tc">
+     <property name="geometry">
+      <rect>
+       <x>81</x>
+       <y>95</y>
+       <width>151</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>11</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="line_soyad">
+     <property name="geometry">
+      <rect>
+       <x>81</x>
+       <y>61</y>
+       <width>151</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>20</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>27</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Ad</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>95</y>
+       <width>60</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TcNumbers</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>340</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLineEdit" name="line_tarih">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>10</y>
+       <width>133</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>19</x>
+       <y>10</y>
+       <width>25</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Tarih</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QTableWidget" name="table_data">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>31</y>
+      <width>1101</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="alternatingRowColors">
+     <bool>true</bool>
+    </property>
+    <property name="rowCount">
+     <number>30</number>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+     <bool>false</bool>
+    </attribute>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>No</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Ad</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Soyad</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TcNo</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TelNo</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>SağGöz</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>SağAx</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>SolGöz</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>SolAx</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Cambilgi</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Tarih</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QComboBox" name="cmb_list">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>0</y>
+      <width>201</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>STARK</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ELEMENTS</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SAPPHIRE</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ALIZE</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>400</y>
+      <width>191</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Seçenekler</string>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>172</width>
+       <height>104</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QRadioButton" name="radio_ekle">
+        <property name="text">
+         <string>Ekle</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QRadioButton" name="radio_sil">
+        <property name="text">
+         <string>Sil</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="kmt_btn">
+        <property name="text">
+         <string>PushButton</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QRadioButton" name="radio_update">
+        <property name="text">
+         <string>Update</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QRadioButton" name="radio_list">
+        <property name="text">
+         <string>Listele</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1407</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>line_ad</tabstop>
+  <tabstop>line_soyad</tabstop>
+  <tabstop>line_tc</tabstop>
+  <tabstop>line_telno</tabstop>
+  <tabstop>line_r</tabstop>
+  <tabstop>line_rax</tabstop>
+  <tabstop>line_l</tabstop>
+  <tabstop>line_lax</tabstop>
+  <tabstop>cmb_marka</tabstop>
+  <tabstop>line_tarih</tabstop>
+  <tabstop>radio_ekle</tabstop>
+  <tabstop>radio_sil</tabstop>
+  <tabstop>radio_update</tabstop>
+  <tabstop>radio_list</tabstop>
+  <tabstop>kmt_btn</tabstop>
+  <tabstop>cmb_list</tabstop>
+  <tabstop>table_data</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
